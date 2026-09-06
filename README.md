@@ -14,6 +14,8 @@ The package contains no game disc, retail BIOS, generated retail game code, or s
 On Windows, the setup wizard can download the portable build tools.
 On Linux and macOS, install CMake, Ninja, Python 3, and a C/C++ compiler first.
 Keep the CUE and all files it references together.
+This exact disc revision also requires your matching SBI companion beside the CUE, with the same basename.
+Setup checks that companion and retains it. See [disc companion instructions](psxrecomp/docs/DISC_COMPANIONS.md).
 The BIOS must be 524288 bytes with SHA-256 `1faaa18fa820a0225e488d9f086296b8e6c46df739666093987ff7d8fd352c09`.
 
 ## Candidate status

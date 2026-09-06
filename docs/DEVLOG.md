@@ -7,3 +7,5 @@ The shared archive gate now accepts only exact hashes for two intentional SDK pa
 Native CI and Windows package acceptance are pending.
 
 2026-09-07: Native canary gates required the existing PSX-BUILD-024 C-linkage correction and the exact public recomp-ui be8ac1d portable tool text fix. The package now carries all four complete public dependency identities (PSX-PUB-027). No game runtime behavior or recipe settings changed in this update. Native build and package checks remain required.
+
+2026-09-07: Adopted the reviewed setup-only SBI intake over the accepted runtime. Eleven source-owned tests pass on this exact backport; the companion remains user-supplied. Runtime, BIOS, disc and accepted seed bytes remain unchanged.
