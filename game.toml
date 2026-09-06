@@ -1,0 +1,44 @@
+
+[game]
+name = "Resident Evil 3: Nemesis"
+id = "SLES-02529"
+players = 1
+exe = "disc/SLES_025.29"
+disc = "disc/Resident Evil 3 - Nemesis (Europe).cue"
+load_address = "0x80010000"
+entry_pc = "0x80011BD0"
+text_size = "0x000D5800"
+stack_base = "0x801FFFF0"
+
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Resident Evil 3 - Nemesis (Europe).bin"
+cue_name = "Resident Evil 3 - Nemesis (Europe).cue"
+boot_exe = "SLES_025.29"
+known_sizes = [712491360]
+known_md5 = ["e7813f06885842fe2bb2c3d02b67f455"]
+known_sha1 = ["b3ec6631e1c9ed3b0f554b3a5f61166bac8ebb9d"]
+known_crc32 = ["fb9def08"]
+
+[recompiler]
+bios_config = "psxrecomp/bios/SCPH5552.toml"
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Resident Evil 3: Nemesis Recompiled"
+memcard_dir = "saves"
+openbios = false
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "eeac3af85b94e26eb8efbf0aef01d45f62c2a992cd7efe4ca1001aa20c760f82"

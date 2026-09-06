@@ -1,0 +1,24 @@
+{
+  "schema": "psx.redump-disc-set.v1",
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Resident Evil 3 - Nemesis (Europe).cue",
+      "bin_name": "Resident Evil 3 - Nemesis (Europe).bin",
+      "size": 712491360,
+      "md5": "e7813f06885842fe2bb2c3d02b67f455",
+      "sha1": "b3ec6631e1c9ed3b0f554b3a5f61166bac8ebb9d",
+      "crc32": "fb9def08",
+      "track_count": 1,
+      "tracks": [
+        {
+          "name": "Resident Evil 3 - Nemesis (Europe).bin",
+          "size": "712491360",
+          "crc": "fb9def08",
+          "md5": "e7813f06885842fe2bb2c3d02b67f455",
+          "sha1": "b3ec6631e1c9ed3b0f554b3a5f61166bac8ebb9d"
+        }
+      ]
+    }
+  ]
+}

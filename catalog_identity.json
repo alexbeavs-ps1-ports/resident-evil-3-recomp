@@ -1,0 +1,48 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Resident Evil 3: Nemesis",
+    "id": "SLES-02529",
+    "boot_exe": "SLES_025.29"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "Europe",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Resident Evil 3 - Nemesis (Europe).cue",
+    "bin_name": "Resident Evil 3 - Nemesis (Europe).bin",
+    "track_counts": [
+      1
+    ],
+    "require_cue": false,
+    "data_track": {
+      "size": 712491360,
+      "md5": "e7813f06885842fe2bb2c3d02b67f455",
+      "sha1": "b3ec6631e1c9ed3b0f554b3a5f61166bac8ebb9d",
+      "crc32": "fb9def08"
+    },
+    "disc_fp": "eeac3af85b94e26eb8efbf0aef01d45f62c2a992cd7efe4ca1001aa20c760f82"
+  },
+  "exe": {
+    "load_address": "0x80010000",
+    "entry_pc": "0x80011BD0",
+    "text_size": "0x000D5800",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 985,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
