@@ -31,7 +31,7 @@ strict = true
 [runtime]
 window_title = "Resident Evil 3: Nemesis Recompiled"
 memcard_dir = "saves"
-bios_hle = true
+bios_hle = false
 openbios = false
 overlay_cache = true
 
